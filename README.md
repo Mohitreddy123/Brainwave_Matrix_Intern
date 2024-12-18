@@ -75,7 +75,7 @@ Key Components:
 Here's a simple flow diagram to explain how the Fake News Detection system works:
 
 [Data Collection] --> [Data Preprocessing] --> [Feature Extraction (TF-IDF)] ---- 
-                                                                                 |
+                                                                                 >
 [Model Evaluation]  <--  [Model Building (Naive Bayes)]  <-- [Train/Test Split] <-
 
 # Conclusion
