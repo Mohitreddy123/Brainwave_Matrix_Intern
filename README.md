@@ -56,7 +56,7 @@ Key Components:
    fake news.
    
   • Accuracy: 0.95
-                 precision    recall  f1-score   support
+                   precision     recall    f1-score    support
 
            0        0.96      0.94      0.95       500
            1        0.94      0.96      0.95       500
@@ -64,7 +64,7 @@ Key Components:
 
       accuracy                           0.95      1000
       macro avg      0.95      0.95      0.95      1000
-   weighted avg      0.95      0.95      0.95      1000
+      weighted avg   0.95      0.95      0.95      1000
 
 8. Deployment (Optional)
    Save the trained model as a .pkl file for future predictions.
