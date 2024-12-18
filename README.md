@@ -75,8 +75,8 @@ Key Components:
 Here's a simple flow diagram to explain how the Fake News Detection system works:
 
 [Data Collection] --> [Data Preprocessing] --> [Feature Extraction (TF-IDF)] ---- 
-                                                                
-[Model Evaluation]  <--  [Model Building (Naive Bayes)]  <-- [Train/Test Split] <--
+                                                                                 |
+[Model Evaluation]  <--  [Model Building (Naive Bayes)]  <-- [Train/Test Split] <-
 
 # Conclusion
 This Fake News Detection System demonstrates the power of machine learning in identifying misleading or false information. By combining text processing and classification techniques, the system can effectively separate fake news from legitimate articles. Further improvements could include exploring deep learning models or integrating real-time detection systems.
