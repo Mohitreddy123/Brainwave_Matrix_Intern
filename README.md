@@ -54,17 +54,19 @@ Key Components:
    score.
    Use a confusion matrix to understand the model's ability to distinguish between real and 
    fake news.
+   
   • Accuracy: 0.95
                  precision    recall  f1-score   support
 
            0        0.96      0.94      0.95       500
            1        0.94      0.96      0.95       500
+           
 
       accuracy                           0.95      1000
       macro avg      0.95      0.95      0.95      1000
    weighted avg      0.95      0.95      0.95      1000
 
-7. Deployment (Optional)
+8. Deployment (Optional)
    Save the trained model as a .pkl file for future predictions.
    Integrate the model into a web-based application for real-time fake news detection.
 
