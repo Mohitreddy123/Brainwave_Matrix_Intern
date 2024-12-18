@@ -56,7 +56,8 @@ Key Components:
    fake news.
    
   • Accuracy: 0.95
-                   precision     recall    f1-score    support
+                   
+                    precision       recall      f1-score      support
 
            0        0.96      0.94      0.95       500
            1        0.94      0.96      0.95       500
