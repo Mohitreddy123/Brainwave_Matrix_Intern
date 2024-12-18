@@ -1,8 +1,5 @@
 # Fake News Detection System
-The Fake News Detection System aims to automatically classify news articles as either real or fake using machine learning techniques. This system leverages Natural Language Processing (NLP) to analyze text data and identify patterns that distinguish fake news from authentic articles.
-
-System Overview
-The Fake News Detection System uses a Multinomial Naive Bayes classifier trained on labeled datasets of fake and real news articles. It processes the text data, extracts features, and then classifies the content into either category.
+The Fake News Detection System aims to automatically classify news articles as either real or fake using machine learning techniques. This system leverages Natural Language Processing (NLP) to analyze text data and identify patterns that distinguish fake news from authentic articles. The Fake News Detection System uses a Multinomial Naive Bayes classifier trained on labeled datasets of fake and real news articles. It processes the text data, extracts features, and then classifies the content into either category.
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 What things you need to install the software and how to install them:
