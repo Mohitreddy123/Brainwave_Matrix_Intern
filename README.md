@@ -58,7 +58,7 @@ Key Components:
    Use a confusion matrix to understand the model's ability to distinguish between real and 
    fake news.
    
-  • Accuracy: 0.95
+  • EXAMPLE:-  Accuracy: 0.95
                    
                   precision      recall     f1-score    support
 
