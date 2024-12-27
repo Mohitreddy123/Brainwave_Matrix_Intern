@@ -7,30 +7,34 @@
   ● These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notesonhow 
     to deploy the project on a live system.What things you need to install the software and how to install them:
 
-**1.Python 3.6:-**
+**1. Python 3.6:-**
 
-  ● This setup requires that your machine has python 3.6 installed on it. 
+   ● This setup requires that your machine has python 3.6 installed on it. 
+   ● you can refer to this url https://www.python.org/downloads/ to download python.
   
-    you can refer to this url https://www.python.org/downloads/ to download python.
-    Once you have python downloaded and installed, you will need to setup PATH variables (if you want to run python program directly, detail instructions are 
+   ● Once you have python downloaded and installed, you will need to setup PATH variables (if you want to run python program directly, detail instructions are 
     below in how to run software section). 
-    To do that check this: https://www.pythoncentral.io/add-python-to-path-python-is-not-recognized-as-an- internal- or-external-command/.
     
-  ● Setting up PATH variable is optional as you can also run program without it and more instruction are given below on this topic.
+   ● To do that check this: https://www.pythoncentral.io/add-python-to-path-python-is-not-recognized-as-an- internal- or-external-command/.
+    
+   ● Setting up PATH variable is optional as you can also run program without it and more instruction are given below on this topic.
   
-**2.Second and easier option is to download anaconda and use its anaconda prompt to run the commands.** 
+**2. Second and easier option is to download anaconda and use its anaconda prompt to run the commands.** 
     
     ● To install anaconda check this url https://www.anaconda.com/download/
 
-**3.You will also need to download and install below 3 packages after you install either python or anaconda from the steps above**
+**3. You will also need to download and install below 3 packages after you install either python or anaconda from the steps above**
     • Sklearn (scikit-learn)
     • numpy
     • scipy
     • NLTK
   
 **Key Components:**
+
      ● Text Preprocessing: Converts raw text data into numerical features using techniques like TF-IDF (Term Frequency-Inverse Document Frequency).
+     
      ● Model: A Multinomial Naive Bayes classifier is used to build the model that predicts whether a news article is real or fake.
+     
      ● valuation: The model is evaluated based on various metrics such as accuracy, precision, recall, and F1-score.
 
 ## Key Steps to Build the Fake News Detection System
@@ -51,20 +55,26 @@
         the classification task.
    
 **3. Feature Extraction (TF-IDF):-**
-   Convert the cleaned text data into numerical features using TF-IDF (Term Frequency-Inverse 
-    Document Frequency).
-   TF-IDF helps to give importance to the most relevant words in the article while reducing the 
-   weight of common words.
+
+    ● Convert the cleaned text data into numerical features using TF-IDF (Term Frequency-Inverse 
+      Document Frequency).
+      
+    ● TF-IDF helps to give importance to the most relevant words in the article while reducing the 
+      weight of common words.
    
 **4. Model Building:-**
+
    • Choose a machine learning algorithm for text classification. A commonly used algorithm for 
      this task is Multinomial Naive Bayes, which works well for text data.
+     
    • Train the model using the preprocessed and vectorized data.
    
 **5. Model Building:-**
    
      ● Choose a machine learning algorithm for text classification.
-     ●  A commonly used algorithm for this task is Multinomial Naive Bayes, which works well for text data.
+     
+     ● A commonly used algorithm for this task is Multinomial Naive Bayes, which works well for text data.
+     
      ● Train the model using the preprocessed and vectorized data.
    
 **6. Model Evaluation:-**
